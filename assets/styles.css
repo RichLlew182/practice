@@ -197,6 +197,11 @@ main {
     object-fit: cover;
 }
 
+.dark-mode .grid-item img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 form {
     max-width: 1120px;
     margin: 2em auto 4em auto;
