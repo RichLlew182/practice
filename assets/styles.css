@@ -148,7 +148,7 @@ header {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 10vmax 0;
+    padding: 10vmax 25px;
     background-attachment: fixed;
     position: relative;
 }
