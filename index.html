@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://staticdelivery.nexusmods.com/mods/1151/images/thumbnails/10080-0-1455866940.png"
+        type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/aa001882c8.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Your Landing Page</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="dropdown">
+                <a href="#">More</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+            <li><a id="darkMode" class="btn btn-default" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                        viewBox="0 0 512 512">
+                        <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <defs>
+                            <style>
+                                .fa-secondary {
+                                    opacity: 0.4;
+                                }
+                            </style>
+                        </defs>
+                        <path class="fa-primary"
+                            d="M191.8 128C85.8 128 0 214.1 0 320.2S85.8 512.4 191.8 512.4c52 0 99.1-20.7 133.6-54.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-8.1 1.4-16.5 2.2-25.1 2.2c-80.7 0-146.2-65.6-146.2-146.6c0-54.8 30-102.6 74.4-127.8c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-5.4-.5-10.8-.7-16.3-.7z" />
+                        <path class="fa-secondary"
+                            d="M284.8 99.2l11 38.6c1 3.6 4.4 6.2 8.2 6.2s7.1-2.5 8.2-6.2l11-38.6 38.6-11c3.6-1 6.2-4.4 6.2-8.2s-2.5-7.1-6.2-8.2l-38.6-11-11-38.6c-1-3.6-4.4-6.2-8.2-6.2s-7.1 2.5-8.2 6.2l-11 38.6-38.6 11c-3.6 1-6.2 4.4-6.2 8.2s2.5 7.1 6.2 8.2l38.6 11zM387.2 252.8l16.6 58c1.6 5.5 6.6 9.2 12.2 9.2s10.7-3.8 12.2-9.2l16.6-58 58-16.6c5.5-1.6 9.2-6.6 9.2-12.2s-3.8-10.7-9.2-12.2l-58-16.6-16.6-58c-1.6-5.5-6.6-9.2-12.2-9.2s-10.7 3.8-12.2 9.2l-16.6 58-58 16.6c-5.5 1.6-9.2 6.6-9.2 12.2s3.8 10.7 9.2 12.2l58 16.6z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Your Company Name</h1>
+        <p class="subheading">Transforming Ideas into Reality</pclass>
+    </header>
+
+    <main>
+        <h2>View Gallery</h2>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <!-- Repeat the above div for the remaining images -->
+            <!-- ... -->
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 9">
+            </div>
+        </div>
+
+        <form action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <label class="disclaimer">
+                <input type="checkbox" name="subscribe"> Subscribe to newsletter
+            </label>
+
+            <button id="specialButton" type="submit">Submit</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <address>
+            Your Company Name<br>
+            123 Main Street, Cityville, State, 12345<br>
+            Phone: (555) 123-4567 | Email: <a href="mailto:">info@yourcompany.com</a>
+        </address>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://staticdelivery.nexusmods.com/mods/1151/images/thumbnails/10080-0-1455866940.png"
+        type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Your Landing Page</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="dropdown">
+                <a href="#">More</a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Learn More About Us</h1>
+        <p>Transforming Ideas into Reality</p>
+    </header>
+
+    <main>
+        <h2>View Gallery</h2>
+        <div class="grid-container">
+
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 1">
+            </div>
+            <!-- Repeat the above div for the remaining images -->
+            <!-- ... -->
+            <div class="grid-item">
+                <img src="http://via.placeholder.com/360x360" alt="Image 9">
+            </div>
+        </div>
+
+        <form action="your-server-endpoint" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="comment">Comment:</label>
+            <textarea id="comment" name="comment" rows="4" required></textarea>
+
+            <label class="disclaimer">
+                <input type="checkbox" name="subscribe"> Subscribe to newsletter
+            </label>
+
+            <button id="specialButton" type="submit">Submit</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <address>
+            Your Company Name<br>
+            123 Main Street, Cityville, State, 12345<br>
+            Phone: (555) 123-4567 | Email: <a href="mailto:">info@yourcompany.com</a>
+        </address>
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
